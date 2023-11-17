@@ -282,7 +282,7 @@
 			</helpsystem>            
 			<text name="game-developer">         
 				<size>0.2 0.0203703</size>
-				<pos>0.5725 0.935</pos>
+				<pos>0.625 0.935</pos>
 			</text>   
 			<text name="game-publisher">         
 				<size>0.09375 0.0203703</size>
