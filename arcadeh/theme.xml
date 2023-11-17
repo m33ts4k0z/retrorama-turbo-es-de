@@ -1,0 +1,74 @@
+<theme>
+	
+	<include>./../theme.xml</include>
+
+<view name="system">
+ <image name="background">
+  <path>./sys.jpg</path>
+  <origin>0 0</origin>
+  <pos>0 0</pos>
+  <size>1 1</size>
+ </image>
+
+ <image name="logo">
+  <path>./../_art/logo.png</path>
+ </image>
+</view>
+
+<view name="gamelist">
+
+ <image name="background">
+  <path>./../_art/gl3.jpg</path>
+  <origin>0 0</origin>
+  <pos>0 0</pos>
+  <size>1 1</size>
+  <zIndex>1</zIndex>
+ </image>
+ 
+ <image name="char">
+  <path>./char.jpg</path>
+  <origin>.5 .5</origin>
+  <pos>.8583 .29</pos>
+  <maxSize>.222 .5</maxSize>
+  <zIndex>2</zIndex>
+ </image>
+ 
+  <image name="logo">
+  <path>./logo.png</path>
+  <origin>.5 .5</origin>
+  <pos>.335 .11</pos>
+  <maxSize>.255 .219</maxSize>
+  <zIndex>3</zIndex>
+ </image>
+ 
+<image name="console">
+  <path>./console.png</path>
+  <origin>.5 .5</origin>
+  <pos>.63 .386</pos>
+  <maxSize>.204 .306</maxSize>
+  <zIndex>3</zIndex>
+</image> 
+
+<rating name="md_rating">
+	<pos>0.76 0.041</pos>
+	<size>0.075 0.065</size>
+	<filledPath>./../_art/full3.png</filledPath>
+	<color>FFFFFFEE</color>
+	<unfilledPath>./../_art/empty.png</unfilledPath>
+</rating>
+
+<textlist name="gamelist">
+	<selectorColor>ff8001</selectorColor>
+	<selectedColor>232323</selectedColor>
+	<primaryColor>f0f0f0</primaryColor>
+	<secondaryColor>eac428</secondaryColor>
+	<alignment>left</alignment>
+	<pos>0.04 0.23</pos>
+	<size>0.415 0.69</size>
+	<fontSize>0.02</fontSize>
+</textlist>
+
+
+</view>
+
+</theme>

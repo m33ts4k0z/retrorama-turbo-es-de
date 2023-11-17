@@ -1,0 +1,429 @@
+<theme>
+	<view name="system"> 
+		<image name="background">
+			<path>./_art/sys.jpg</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+		</image>     
+		<text name="system-game-count">
+			<origin>0.5 0</origin>
+			<size>0 0</size>
+			<fontPath>./_art/comic.otf</fontPath>
+			<fontSize>0.0333333</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<systemdata>gamecountGamesNoText</systemdata>
+			<color>a1a1a1</color>
+			<stationary>withinView</stationary>
+		</text>
+		<text name="system-game-count-label">
+			<origin>0.5 0</origin>
+			<size>0 0</size>
+			<fontPath>./_art/comic.otf</fontPath>
+			<fontSize>0.0203703</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<text>Games</text>
+			<color>a1a1a1</color>
+			<stationary>withinView</stationary>
+		</text>
+		<text name="system-favorites-count">
+			<origin>0.5 0</origin>
+			<size>0 0</size>
+			<fontPath>./_art/comic.otf</fontPath>
+			<fontSize>0.0333333</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<systemdata>gamecountFavoritesNoText</systemdata>
+			<color>a1a1a1</color>
+			<stationary>withinView</stationary>
+		</text>
+		<text name="system-favorites-count-label">
+			<origin>0.5 0</origin>
+			<size>0 0</size>
+			<fontPath>./_art/comic.otf</fontPath>
+			<fontSize>0.0203703</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<text>Favorites</text>
+			<color>a1a1a1</color>
+			<stationary>withinView</stationary>
+		</text>
+		<helpsystem name="help">
+			<fontPath>./_art/comic.otf</fontPath>
+			<fontSize>0.03</fontSize>
+			<letterCase>capitalize</letterCase>
+			<iconColor>a1a1a1</iconColor>
+			<textColor>818181</textColor>
+		</helpsystem>
+   	</view>
+	<view name="gamelist">
+		<image name="background">
+			<path>./_art/gl.jpg</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>1</zIndex>
+		</image>
+		<textlist name="gamelist">
+			<selectorColor>c02f15</selectorColor>
+			<selectedColor>232323</selectedColor>
+			<primaryColor>f0f0f0</primaryColor>
+			<secondaryColor>eac428</secondaryColor>
+			<fontPath>./_art/comic.ttf</fontPath>
+			<pos>0.04 0.23</pos>
+			<size>0.415 0.69</size>
+			<fontSize>0.02</fontSize>
+		</textlist>
+		<image name="game-marquee">     
+			<origin>0 0</origin>
+			<maxSize>0.202 0.09</maxSize>
+			<imageType>marquee</imageType>
+		</image>	  
+		<text name="game-genre-label">
+			<fontPath>./_art/comic.ttf</fontPath>
+			<fontSize>0.020</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<text>GENRE:</text>
+			<color>232323DD</color>
+			<defaultValue>:space:</defaultValue>		 
+			<size>0.18 0.02</size>
+		</text>	  
+		<text name="game-genre"><fontPath>./_art/comic.ttf</fontPath>
+			<fontSize>0.020</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<letterCase>capitalize</letterCase>
+			<metadata>genre</metadata>
+			<defaultValue>:space:</defaultValue>
+			<color>232323DD</color>
+			<size>0.15 0.02</size>
+		</text>
+		<text name="game-description">
+			<metadata>description</metadata>
+			<fontPath>./_art/comic.otf</fontPath>
+			<fontSize>0.022</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<verticalAlignment>bottom</verticalAlignment>
+			<container>true</container>
+			<containerStartDelay>6</containerStartDelay>
+			<color>232323DD</color>
+		</text>
+		<text name="game-players-label">
+			<color>232323DD</color>
+			<fontPath>./_art/comic.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+			<size>0.22 0.01</size>
+			<text>PLAYERS:</text>
+		</text>
+		<text name="game-players">
+			<color>232323DD</color>
+			<fontPath>./_art/comic.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.18 0.02</size>
+			<metadata>players</metadata>
+			<defaultValue>:space:</defaultValue>
+		</text>
+		<rating name="rating">
+			<size>0.075 0.065</size>
+			<filledPath>./_art/full.png</filledPath>
+			<color>FFFFFFEE</color>
+			<unfilledPath>./_art/empty.png</unfilledPath>
+			<zIndex>4</zIndex>
+		</rating>
+		<text name="game-play-count-label">
+			<text>TIMES PLAYED:</text>
+			<color>232323DD</color>
+			<fontPath>./_art/comic.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+			<size>0.22 0.01</size>
+		</text>
+		<text name="game-play-count">
+			<fontPath>./_art/comic.ttf</fontPath>
+			<size>0.18 0.02</size>
+			<fontSize>0.025</fontSize>
+			<metadata>playcount</metadata>
+			<color>232323DD</color>
+		</text>
+		<image name="game-screenshot">     
+			<origin>.5 .5</origin>			
+			<maxSize>0.216 0.361</maxSize>
+			<imageType>miximage</imageType>
+		</image>     
+		<helpsystem name="help">
+			<fontPath>./_art/comic.otf</fontPath>
+			<fontSize>0.016</fontSize><!-- 22 -->
+			<letterCase>capitalize</letterCase>
+			<iconColor>232323DD</iconColor>
+			<textColor>232323DD</textColor>
+		</helpsystem>      
+		<text name="game-developer">
+			<origin>0.5 0</origin>
+			<fontPath>./_art/comic.otf</fontPath>
+			<fontSize>0.016</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<metadata>developer</metadata>
+			<defaultValue>--</defaultValue>
+			<color>232323DD</color>
+		</text> 
+		<text name="game-publisher">
+			<origin>0.5 0</origin>
+			<fontPath>./_art/comic.otf</fontPath>
+			<fontSize>0.016</fontSize>
+			<horizontalAlignment>center</horizontalAlignment>
+			<lineSpacing>1</lineSpacing>
+			<metadata>publisher</metadata>
+			<defaultValue>--</defaultValue>
+			<color>232323DD</color>
+		</text>
+		<datetime name="game-release-date">
+			<origin>0.5 0</origin>
+			<metadata>releasedate</metadata>
+			<defaultValue>Not Set</defaultValue>
+			<fontPath>./_art/comic.otf</fontPath>
+			<fontSize>0.016</fontSize>
+			<lineSpacing>1</lineSpacing>
+			<format>%d-%m-%Y</format>
+			<defaultValue>--</defaultValue>
+			<color>232323DD</color>
+		</datetime>
+	</view>
+
+	<aspectRatio name="16:9">   
+		<view name="system">
+			<carousel name="system-carousel">
+				<pos>0 0</pos>
+				<size>0 0</size>
+				<itemSize>0 0</itemSize>
+				<color>00000000</color>
+				<textColor>00000000</textColor>
+			</carousel>
+			<text name="system-label">
+				<pos>0.0520833 0.1962962</pos>
+			</text>
+			<text name="system-name">
+				<pos>0.0520833 0.2555555</pos>
+				<size>0.26875 0</size>
+			</text>
+			<text name="system-description">
+				<pos>0.0520833 0.4814814</pos>
+				<size>0.26875 0.17962962962963</size>
+			</text>
+			<image name="system-stats-border">
+				<pos>0.0520833 0.7037037</pos>
+				<size>0.003125 0.1611111</size>
+			</image>
+			<image name="system-stats-background">
+				<pos>0.0520833 0.7037037</pos>
+				<size>0.26875 0.1611111</size>
+			</image>
+			<text name="system-game-count">
+				<pos>0.64 0.94</pos>
+			</text>
+			<text name="system-game-count-label">
+				<pos>0.6 0.947</pos>
+			</text>
+			<text name="system-favorites-count">
+				<pos>0.545 0.94</pos>
+			</text>
+			<text name="system-favorites-count-label">
+				<pos>0.5 0.947</pos>
+			</text>
+			<helpsystem name="help">
+				<pos>0.04 0.94</pos>
+			</helpsystem>
+		</view>
+		<view name="gamelist">               
+			<image name="game-marquee">            
+				<origin>0.5 0.5</origin>
+				<pos>0.630 0.124</pos>
+				<maxSize>0.205 0.169</maxSize>
+			</image> 
+			<video name="game-art">
+				<origin>.5 .5</origin>
+				<pos>0.636 0.745</pos>
+				<maxSize>0.216 0.361</maxSize>
+				<delay>1.5</delay>
+				<iterationCount>1</iterationCount>
+				<onIterationsDone>image</onIterationsDone>
+				<imageType>miximage</imageType> 
+			</video>     
+			<image name="game-screenshot">
+				<origin>.5 .5</origin>
+				<pos>0.636 0.745</pos>
+				<maxSize>0.216 0.361</maxSize>
+			</image>
+			<text name="game-genre-label">
+				<pos>0.754 0.115</pos>
+			</text>
+			<text name="game-genre">
+				<pos>0.81 0.109</pos>
+			</text>
+			<text name="game-description">
+				<pos>.76 .605</pos>
+				<size>.206 .316</size>
+			</text>
+			<rating name="rating">
+				<pos>0.76 0.041</pos>
+			</rating>
+			<text name="game-play-count-label">            
+				<pos>0.77 0.14</pos>
+			</text>
+			<text name="game-play-count">
+				<pos>0.88 0.134</pos>
+			</text>
+			<text name="game-release-date-label">
+				<pos>0.1208333 0.7407407</pos>
+			</text>
+			<text name="game-players-label">
+				<pos>0.795 0.165</pos>
+			</text>
+			<text name="game-players">
+				<pos>0.86 0.16</pos>
+			</text>       
+			<helpsystem name="help">
+				<pos>0.025 0.935</pos>
+			</helpsystem>            
+			<text name="game-developer">         
+				<size>0.2 0.0203703</size>
+				<pos>0.5725 0.935</pos>
+			</text>   
+			<text name="game-publisher">         
+				<size>0.09375 0.0203703</size>
+				<pos>0.75 0.935</pos>
+			</text>     
+			<datetime name="game-release-date">
+				<pos>0.95 0.935</pos>
+			</datetime>
+		</view>
+	</aspectRatio>    
+
+   	<aspectRatio name="16:10">
+		<view name="system">
+			<carousel name="system-carousel">
+				<pos>0 0</pos>
+				<size>0 0</size>
+				<itemSize>0 0</itemSize>
+				<color>00000000</color>
+				<textColor>00000000</textColor>
+			</carousel>
+			<text name="system-label">
+				<pos>0.0520833 0.1962962</pos>
+			</text>
+			<text name="system-name">
+				<pos>0.0520833 0.2555555</pos>
+				<size>0.26875 0</size>
+			</text>
+			<text name="system-description">
+				<pos>0.0520833 0.4814814</pos>
+				<size>0.26875 0.1796296</size>
+			</text>
+			<image name="system-stats-border">
+				<pos>0.0520833 0.7037037</pos>
+				<size>0.003125 0.1611111</size>
+			</image>
+			<image name="system-stats-background">
+				<pos>0.0520833 0.7037037</pos>
+				<size>0.26875 0.1611111</size>
+			</image>
+			<text name="system-game-count">
+			<pos>0.64 0.94</pos>
+			</text>
+			<text name="system-game-count-label">
+			<pos>0.6 0.947</pos>
+			</text>
+			<text name="system-favorites-count">
+			<pos>0.545 0.94</pos>
+			</text>
+			<text name="system-favorites-count-label">
+			<pos>0.5 0.947</pos>
+			</text>
+			<helpsystem name="help">
+			<pos>0.04 0.94</pos>
+			</helpsystem>
+		</view>
+		<view name="gamelist">               
+			<image name="game-marquee">            
+				<origin>0.5 0.5</origin>
+				<pos>0.630 0.124</pos>
+				<maxSize>0.205 0.169</maxSize>
+			</image> 
+			<video name="game-art">
+				<origin>.5 .5</origin>
+				<pos>0.636 0.745</pos>
+				<maxSize>0.216 0.361</maxSize>
+				<delay>1.5</delay>
+				<iterationCount>1</iterationCount>
+				<onIterationsDone>image</onIterationsDone>
+				<imageType>miximage</imageType> 
+			</video>     
+			<image name="game-screenshot">
+				<origin>.5 .5</origin>
+				<pos>0.636 0.745</pos>
+				<maxSize>0.216 0.361</maxSize>
+			</image>
+			<text name="game-genre-label">
+				<pos>0.754 0.115</pos>
+			</text>
+			<text name="game-genre">
+				<pos>0.81 0.109</pos>
+			</text>
+			<text name="game-description">
+				<pos>.76 .605</pos>
+			<size>.206 .316</size>
+			</text>
+			<rating name="rating">
+				<pos>0.76 0.041</pos>
+			</rating>
+			<text name="game-play-count-label">            
+				<pos>0.77 0.14</pos>
+			</text>
+			<text name="game-play-count">
+				<pos>0.88 0.134</pos>
+			</text>
+			<text name="game-release-date-label">
+				<pos>0.1208333 0.7407407</pos>
+			</text>
+			<text name="game-players-label">
+				<pos>0.795 0.165</pos>
+			</text>
+			<text name="game-players">
+				<pos>0.86 0.16</pos>
+			</text>       
+			<helpsystem name="help">
+				<pos>0.025 0.935</pos>
+			</helpsystem>            
+			<text name="game-developer">         
+				<size>0.2 0.0203703</size>
+				<pos>0.5725 0.935</pos>
+			</text>   
+			<text name="game-publisher">         
+				<size>0.09375 0.0203703</size>
+				<pos>0.75 0.935</pos>
+			</text>     
+			<datetime name="game-release-date">
+				<pos>0.95 0.935</pos>
+			</datetime>
+		</view>
+	</aspectRatio>
+
+	<view name="all">
+		<sound name="systembrowse">
+			<path>./_art/systembrowse.wav</path>
+		</sound>
+		<sound name="quicksysselect">
+			<path>./_art/quicksysselect.wav</path>
+		</sound>
+		<sound name="select">
+			<path>./_art/select.wav</path>
+		</sound>
+		<sound name="back">
+			<path>./_art/back.wav</path>
+		</sound>
+		<sound name="scroll">
+			<path>./_art/scroll.wav</path>
+		</sound>
+		<sound name="favorite">
+			<path>./_art/favorite.wav</path>
+		</sound>
+		<sound name="launch">
+			<path>./_art/launch.wav</path>
+		</sound>
+	</view>
+</theme>
