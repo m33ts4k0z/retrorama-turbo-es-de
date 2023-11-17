@@ -56,7 +56,7 @@
    	</view>
 	<view name="gamelist">
 		<image name="background">
-			<path>./_art/gl.jpg</path>
+			<path>./_art/gl4.jpg</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
@@ -86,7 +86,8 @@
 			<defaultValue>:space:</defaultValue>		 
 			<size>0.18 0.02</size>
 		</text>	  
-		<text name="game-genre"><fontPath>./_art/comic.ttf</fontPath>
+		<text name="game-genre">
+			<fontPath>./_art/comic.ttf</fontPath>
 			<fontSize>0.020</fontSize>
 			<lineSpacing>1</lineSpacing>
 			<letterCase>capitalize</letterCase>
