@@ -56,7 +56,7 @@
    	</view>
 	<view name="gamelist">
 		<image name="background">
-			<path>./_art/gl4.jpg</path>
+			<path>./_art/gl6.jpg</path>
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
