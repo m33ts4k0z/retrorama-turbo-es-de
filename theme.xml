@@ -35,6 +35,9 @@
 			<systemdata>gamecountFavoritesNoText</systemdata>
 			<color>a1a1a1</color>
 			<stationary>withinView</stationary>
+			<horizontalAlignment>center</horizontalAlignment>
+			<letterCase>capitalize</letterCase>
+			<zIndex>50</zIndex>
 		</text>
 		<text name="system-favorites-count-label">
 			<origin>0.5 0</origin>
@@ -122,7 +125,7 @@
 			<defaultValue>:space:</defaultValue>
 		</text>
 		<rating name="rating">
-			<size>0.075 0.065</size>
+			<size>0.065 0.055</size>
 			<filledPath>./_art/full.png</filledPath>
 			<color>FFFFFFEE</color>
 			<unfilledPath>./_art/empty.png</unfilledPath>
@@ -213,19 +216,19 @@
 			<image name="system-stats-background">
 				<pos>0.0520833 0.7037037</pos>
 				<size>0.26875 0.1611111</size>
-			</image>
-			<text name="system-game-count">
-				<pos>0.64 0.94</pos>
-			</text>
+			</image>			
 			<text name="system-game-count-label">
-				<pos>0.6 0.947</pos>
+				<pos>0.89 0.947</pos>
+			</text>					
+			<text name="system-favorites-count-label">
+				<pos>0.75 0.947</pos>
 			</text>
 			<text name="system-favorites-count">
-				<pos>0.545 0.94</pos>
+				<pos>0.85 0.94</pos>
 			</text>
-			<text name="system-favorites-count-label">
-				<pos>0.5 0.947</pos>
-			</text>
+			<text name="system-game-count">
+				<pos>0.95 0.94</pos>
+			</text>	
 			<helpsystem name="help">
 				<pos>0.04 0.94</pos>
 			</helpsystem>
@@ -322,21 +325,21 @@
 			<image name="system-stats-background">
 				<pos>0.0520833 0.7037037</pos>
 				<size>0.26875 0.1611111</size>
-			</image>
-			<text name="system-game-count">
-			<pos>0.64 0.94</pos>
-			</text>
+			</image>			
 			<text name="system-game-count-label">
-			<pos>0.6 0.947</pos>
+				<pos>0.89 0.947</pos>
+			</text>					
+			<text name="system-favorites-count-label">
+				<pos>0.75 0.947</pos>
 			</text>
 			<text name="system-favorites-count">
-			<pos>0.545 0.94</pos>
+				<pos>0.85 0.94</pos>
 			</text>
-			<text name="system-favorites-count-label">
-			<pos>0.5 0.947</pos>
-			</text>
+			<text name="system-game-count">
+				<pos>0.95 0.94</pos>
+			</text>	
 			<helpsystem name="help">
-			<pos>0.04 0.94</pos>
+				<pos>0.04 0.94</pos>
 			</helpsystem>
 		</view>
 		<view name="gamelist">               
@@ -363,36 +366,36 @@
 				<pos>0.754 0.115</pos>
 			</text>
 			<text name="game-genre">
-				<pos>0.81 0.109</pos>
+				<pos>0.81 0.115</pos>
 			</text>
 			<text name="game-description">
 				<pos>.76 .605</pos>
-			<size>.206 .316</size>
+				<size>.206 .316</size>
 			</text>
 			<rating name="rating">
-				<pos>0.76 0.041</pos>
+				<pos>0.76 0.061</pos>
 			</rating>
 			<text name="game-play-count-label">            
-				<pos>0.77 0.14</pos>
+				<pos>0.77 0.145</pos>
 			</text>
 			<text name="game-play-count">
-				<pos>0.88 0.134</pos>
+				<pos>0.87 0.14</pos>
 			</text>
 			<text name="game-release-date-label">
 				<pos>0.1208333 0.7407407</pos>
 			</text>
 			<text name="game-players-label">
-				<pos>0.795 0.165</pos>
+				<pos>0.795 0.17</pos>
 			</text>
 			<text name="game-players">
-				<pos>0.86 0.16</pos>
+				<pos>0.86 0.165</pos>
 			</text>       
 			<helpsystem name="help">
 				<pos>0.025 0.935</pos>
 			</helpsystem>            
 			<text name="game-developer">         
 				<size>0.2 0.0203703</size>
-				<pos>0.5725 0.935</pos>
+				<pos>0.625 0.935</pos>
 			</text>   
 			<text name="game-publisher">         
 				<size>0.09375 0.0203703</size>
